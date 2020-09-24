@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.get("/",(req,res)=>{
 
 res.sendFile(__dirname+"/sign-up.html");
-res.redirect('/todo');
+
 
 })
 
